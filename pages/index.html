@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Evenements</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body id="root">
+    <p id="output"></p>
+
+    <div class="toggle">
+        <button id="toggle-dark-mode">Toggle</button>
+        <button id="reset-to-system">Reset</button>
+        <img id="profile" src="../assets/images/profil.png" alt="">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Evénements</a></li>
+            <li><a href="contact.html">Nous contacter</a></li>
+            <li><a href="apropos.html">A propos</a></li>
+            <li><img id="logout" src="../assets/images/logout.png" alt=""></li>
+
+        </ul>
+
+    </nav>
+    <div id="tri">
+        <label for="date">Date<input type="date" id="start" name="date"> </label>
+
+
+        <label for="lieu">Lieu
+            <select name="lieu" id="lieu">
+                <option value="Lieu">Selectionnez un lieu</option>
+            </select> </label>
+
+
+        <label for="organisateur">Organisateur
+            <select name="organisateur" id="organisateur">
+                <option value="organisateur"> Selectionnez un organisateur</option>
+            </select>
+        </label>
+
+
+
+    </div>
+    <main id="main">
+
+
+    </main>
+
+
+    <script src="../renderer.js" type="module"></script>
+</body>
+
+
+</html>

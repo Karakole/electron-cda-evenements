@@ -1,0 +1,6 @@
+{
+    "apiUrl": "https://api-evenement-cda.herokuapp.com/api",
+    "urlImage":"https://api-evenement-cda.herokuapp.com/api/uploads/",
+  
+    "defaultImg":"https://rhaegal.app/maps4smart/public/default-image.jpg"
+}

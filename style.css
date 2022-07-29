@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #333;
+        color: white;
+    }
+
+    #profile {
+
+        background-color: #fdfafa;
+        border-radius: 1rem;
+    }
+
+
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: #ddd;
+        color: black;
+
+    }
+
+    #toggle-dark-mode {
+        background-color: #333;
+        color: #ddd;
+    }
+
+
+
+
+}
+
+.toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    max-height: fit-content;
+
+
+
+
+}
+
+#toggle-dark-mode,
+#reset-to-system {
+    border-radius: 10em;
+    border-style: none;
+    cursor: pointer;
+    height: 3em;
+
+
+}
+
+#profile {
+    width: 30px;
+    cursor: pointer;
+
+}
+
+
+nav {
+    background-color: #E24D4D;
+
+    width: 100%;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5em;
+
+
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+
+}
+
+
+#logout {
+    width: 30px;
+    cursor: pointer;
+}
+
+#tri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em
+}
+
+#evenement {
+    width: 80%;
+
+    background-color: rgb(138, 133, 133);
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+#evenement>h3 {
+    font-size: 24px;
+    width: 100%;
+
+}
+
+#imagesEvent {
+
+    width: 50%;
+
+
+
+
+
+}
+
+#imagesEvent>img {
+
+    width: 250px;
+    height: 180px;
+    padding: 1rem;
+    object-fit: cover;
+
+}
+
+#divInfos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1rem;
+    width: 10rem;
+    gap: 1rem;
+
+}
+
+
+#connexion {
+    display: flex;
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 25rem;
+    height: 25rem;
+    background-color: #e24d4d74;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+
+
+}
+
+#login {
+    height: 8rem;
+    width: 20rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+#login>label>input {
+    border-radius: 1rem;
+    border-style: hidden;
+
+}
+
+#login>label>input {
+    padding: 1rem;
+}
+
+#login>button {
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 50%;
+    align-self: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+}
+
+#login>button:hover {
+    background-color: #b33e3e;
+    color: aliceblue;
+}
